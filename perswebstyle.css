@@ -166,7 +166,7 @@ header li{ list-style:none;
               
               .content h1 ,.portcontent h1{ margin:0 auto;
                             margin-top: 500px;
-                            width:100%;
+                            width:80%;
                             text-align:justify;
                             float:none;}
               .text {     margin: 0 auto;
@@ -191,9 +191,9 @@ header li{ list-style:none;
 
  @media screen and (max-width: 1000px) {
               
-             .content h1 ,.portcontent h1, .body h1 { margin:0 auto;
+             .content h1 ,.portcontent h1{ margin:0 auto;
                             margin-top: 500px;
-                            width:100%;
+                            width:80%;
                             text-align: left;
                             float:none;}
               .text  {       margin-top: 30px;
