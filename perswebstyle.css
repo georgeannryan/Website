@@ -1,0 +1,507 @@
+
+ .wrapper { width :100%;
+          height:auto;
+          margin:0 auto;}
+
+ 
+header { margin : 0 auto;
+              width:80%;
+       height:auto; }
+       
+header li{ list-style:none;
+              float: right;}
+
+
+.header li a {position: absolute;
+         top: 40px;
+         left: 119px;
+          }
+.header li a img {
+              margin :0 auto;
+              display:block;
+              text-decoration:none;}
+.header li p { padding:10px;
+              background-color: white;
+            margin: 0 auto;
+            font-size: 15px;
+            border-color:rgb(77,77,77);
+             text-align:justify;
+            color: rgb(119,119,119);
+
+           font-family: 'Open Sans Condensed',sans-serif;}
+ .navbar
+   { margin-top: 90px;
+ margin:0 auto;
+    font-family:'Open Sans Condensed',sans-serif;
+        font-size: 30px;
+         width:80%;}
+ nav ul{ border-bottom: solid;
+              width: 70%;
+              margin:0 auto;
+              border-color: rgb(110,110,110);
+              border-width: thin;}       
+ nav li  {letter-spacing:3px;
+        float:left;
+        margin:0 auto;
+         font-weight:lighter;
+        list-style: none;
+         text-align:center;
+    padding:10px;}
+    
+ .navbar  li a{ margin:0 auto;
+        display: block;
+         width: 19%;
+              color:rgb(77,77,77);
+        font-weight:lighter;
+         text-decoration: none;}
+    nav li:hover a{color: rgb(119,119,119);
+                     text-decoration: overline;
+                     }
+              /* mobile and browser width adjustments for navigation and social media links */
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+ 
+{
+           header {width:80%;
+           height: 60px;}
+              nav ul li{border-bottom: thin solid rgb(77,77,77);
+             text-align:center;
+            margin:0 auto;      
+              width:80%;}
+  .nav navbar { border:none;
+            width:100%;
+              margin:0 auto;
+              margin-top: 50px;}
+      header li {width:22%;
+        margin:0 auto;
+        float:left;}
+        
+        .logo {width: 0%;
+              visibility:hidden;} }
+        
+       @media screen and (max-width: 1000px) {
+           header {width:80%;
+           height: 60px;}
+              nav ul li{border-bottom: thin solid rgb(77,77,77);
+             text-align:center;
+            margin:0 auto;      
+              width:80%;}
+  .nav navbar { border:none;
+            width:100%;
+              margin:0 auto;
+              margin-top: 50px;}
+      header li {width:22%;
+        margin:0 auto;
+        float:left;}
+        .logo {width: 0%;
+              visibility:hidden;}}
+              
+              /*end media screen query for navbar and social media buttons*/
+ body { width: 100%;
+              margin:0 auto;}
+ .body{ margin-top: 190px;
+       width: 80%;
+       margin: 0 auto; }
+        .body img {width: 80%}
+        
+        /*media screen for home page image switch*/
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){
+              .bodyindex img {margin :0 auto;
+              width:100%;
+              visibility:hidden;}
+              
+              .bodyindex{  margin:0 auto;
+                            margin-top: 90px;
+                            width: 80%;
+                            height:auto;
+              content:url(images/headerimgmob.png)}}
+              
+ @media screen and (max-width: 900px){
+              .bodyindex img {margin :0 auto;
+              width:100%;
+              visibility:hidden;}
+              
+              .bodyindex{  margin:0 auto;
+                            margin-top: 90px;
+                            width: 80%;
+                            height:auto;
+              content:url(images/headerimgmob.png)}}
+              /*end media screen query for home page*/
+              
+           
+              
+  
+ body h1 {font-family: 'Amatic SC';
+        font-size: 44px;
+        color:rgb(77,77,77);
+        margin-top:160px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+         border-bottom: solid;
+         border-width: thin}
+   .bodyindex     {margin-top:  90px;} 
+.content, .portcontent, .resumecontent{ background-color: white;
+            font-size: 20px;
+             margin-top:100px;
+            border-color:rgb(77,77,77);
+             text-align:justify;
+            color: rgb(119,119,119);
+            width: 100%;
+           font-family: 'Open Sans Condensed',sans-serif;
+            line-height: 50px;
+            letter-spacing: 1.5px;
+}
+.text {float:right;
+       width:50%;
+       margin:0 auto;
+}
+.pic {float:left;
+       width: 50%;
+       height:auto;}
+@media  screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){
+              
+              .content h1 ,.portcontent h1 { margin:0 auto;
+                            margin-top: 500px;
+                            width:80%;
+                            text-align:justify;
+                            float:none;}
+              .text {     margin: 0 auto;
+                            margin-top: 20px;
+                            width: 100%;
+                            float:none;
+                           }
+                           .text p {margin: 0 auto;
+                            margin-top: 20px;
+                            width: 100%;
+                            float:none}
+                           .pic { margin: 0 auto;
+                            margin-top: 20px;
+                            float:none;
+                           width: 100%;
+                           }
+                           .pic img { width:80%;
+                           margin:0 auto;
+                            float:none;
+                          margin-left:35px; }}
+
+
+ @media screen and (max-width: 1000px) {
+              
+              .content h1 ,.portcontent h1 { margin:0 auto;
+                            margin-top: 500px;
+                            width:80%;
+                            text-align: left;
+                            float:none;}
+              .text  {       margin-top: 30px;
+                            width: 100%;
+                            float:none;
+                           }
+                           
+                           .text p {  margin: 0 auto;
+                            margin-top: 20px;
+                            width: 100%;
+                            float:none}
+                           .pic { margin: 0 auto;
+                            margin-top: 20px;
+                            float:none;
+                           width: 100%;
+                           }
+                           .pic img { width:80%;
+                           margin:0 auto;
+                            float:none;
+                          margin-left:35px; }}
+
+
+.resumecontent h2  {text-align:left;
+               width:80%;
+               color:rgb(119,119,119)}
+
+.resumecontent h3 {text-align: left;
+              color:rgb(119,119,119);}
+
+.resumecontent { line-height: 25px;
+               margin: 0 auto;
+                 margin-top: 40px;
+                  text-align: left;}
+   .resumecontent a {text-decoration: none;
+                  color: rgb(119,119,119);}              
+                 
+.resumecontent li {margin: 0 auto;}
+
+.buttons {width: 70%;
+              margin: 0 auto;
+              height: auto;
+              margin-top: 150px;}
+.buttons  img{ float:left;          
+              margin:0 auto;
+              padding:30px;
+              list-style:none;  
+              }
+              /*making toggle buttons*/
+             
+              input{  display:block;       
+                            float:left;
+              }
+              
+              label{ display: block;
+              }
+              label:hover {color:#000;}
+             #toggle unchecked ~ label ::before {font-family: 'Open Sans Codensed', sans serif;
+                            vertical-align: text-top;
+                            float:left;}
+                            #expand {height:0px;
+                            overflow: hidden;
+                            transition: 0.5s;}
+                            #toggle:checked ~ #expand {height:auto;}
+              /*end of toggle button code */
+@media  screen and (min-device-width:375px) 
+  and (max-device-width:667px){
+              .content  {
+                            width: 100%;
+                            margin: 0 auto;
+                            margin-top: 70px;
+                            text-align: left;
+                            }
+              body .educ{ margin-top: 60px;
+                            text-align: left;}
+              }
+@media screen and (max-width:1000px){
+              .content  {
+                            width: 100%;
+                            margin: 0 auto;
+                            margin-top: 70px;
+                            text-align: left; }
+              body .educ{ margin-top: 60px;
+              text-align: left} }
+.buttons { width:80%;
+              margin: 0 auto;
+              padding: 40px;
+              margin-top: 170px;
+              margin-left: 170px;
+      }
+   .view {width:50%;
+              float:left;
+              }
+ .view img{ list-style:none;
+              display: block;
+              float:left;
+        width: 260px;
+        height: auto;}
+
+        
+.view :hover img {transition: all 0.3s ease-out;
+              content:url(images/eyeshut.png);
+                     width: 260px;}
+ .download {  width: 50%;
+              float:left;
+ }            
+.download  a { list-style: none;}
+.download img {list-style: none;
+               display: block;
+               float:left;
+              width: 260px;
+}
+.download :hover img {transition: all 0.3s ease-out;
+              content:url(images/downloadbef.png);
+                     width: 260px;}
+                      /* Resume icons web media screen*/
+ @media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){
+              .body { width:100%;
+                      margin: 0 auto;       }
+              .buttons {margin:0 auto; }
+            .download{
+                      margin:0 auto;
+                      float:none;
+                      width:100%;}
+                 .download img { display:block;
+                      margin:0 auto;
+                      float:none;
+                      width:260px;}
+                      
+                     .view{
+                      margin:0 auto;
+                      float:none;
+                      width:100%;}
+                 .view img { display:block;
+                      margin:0 auto;
+                      float:none;
+                      width:260px;} }
+       @media screen and (max-width: 1000px){
+              .body { width:100%;
+                      margin: 0 auto;  }
+           .buttons {margin:0 auto;
+                      padding:0px;
+           }
+            .download{
+                      margin:0 auto;
+                      float:none;
+                      width:100%;}
+                 .download img { display:block;
+                      margin:0 auto;
+                      float:none;
+                      width:260px;}
+                      
+                     .view{
+                      margin:0 auto;
+                      float:none;
+                      width:100%;}
+                 .view img { display:block;
+                      margin:0 auto;
+                      float:none;
+                      width:260px;}  }
+                      /* Resume icons web end*/
+.portcontent p { margin: 0 auto;
+              width: 70%;
+              margin-top: 10px;}
+
+                                    
+.content  { list-style:none;
+                      width:80%;
+                      margin:0 auto;
+                      display:block}
+                      
+
+.icon { width: 90%;
+        margin: 0 auto;
+        margin-top:50px;
+         margin-left: 190px;      }
+
+.audio { margin:0 auto; width:29%;
+              float:left;}
+.audio img {display:block;
+              float :left;
+              margin: 0 auto;
+              height: auto;}
+
+.audio  :hover img { transition: all 0.3s ease-out;
+               content: url(images/hearon.png);}
+.papers {margin:0 auto; width:29%;
+              float:left;}
+.papers img { DISPLAY:BLOCK;
+              float:left;
+              margin: 0 auto;
+              height: auto;}
+.papers :hover img { transition: all 0.3s ease-out;
+                            content:url(images/scribble.png); }
+  .photo {
+           margin:0 auto;
+           width: 29%;
+              float:left;}
+              .photo img {display:block;
+              float :left;
+              margin: 0 auto;
+              height: auto;}
+   .photo :hover img {transition: all 0.3s ease-out;
+                            content:url(images/camerashot.png);    }
+                            
+                               /*portfolio mobile web design*/
+                               
+  @media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px){
+                    .portcontent{ width: 80%;}
+           .audio { margin:0 auto;
+                      float:none;
+                      width:80%;
+                      height:auto;
+                     padding:10px;}
+              .photo {margin:0 auto;
+                      float:none;
+                      width:80%;
+                     padding:10px;}
+           .papers{   margin:0 auto;
+                      float:none;
+                      width:80%;
+                     padding:10px;}
+                 .papers a img { display:block;
+                      margin:0 auto;
+                      float:none;
+                      width:60%;}
+                      .photo a img { display: block;
+                                 float:none;
+                                 width:60%;}
+                      .audio a img { display: block;
+                      float:none;
+                      width:60%;}}
+              @media screen and (max-width: 1000px){
+            .portcontent{ width: 80%;}
+           .audio { 
+                      float:none;
+                      width:80%;
+                      height:auto;
+                     padding:10px;}
+              .photo {
+                      float:none;
+                      width:80%;
+                     padding:10px;}
+           .papers{   
+                      float:none;
+                      width:80%;
+                     padding:10px;}
+                 .papers a img { display:block;
+                      float:none;
+                      width:60%;}
+                      .photo a img { display: block;
+                                 float:none;
+                                 width:60%;}
+                      .audio a img { display: block;
+                      float:none;
+                      width:60%;} }
+              /*portfolio design mobile end*/
+              .photocontent{ width:100%; margin :0 auto;
+              }
+.photocontent p { width:80%;
+              margin-left: 190px;
+              background-color: white;
+            font-size: 20px;
+            border-color:rgb(77,77,77);
+             text-align:justify;
+            color: rgb(119,119,119);
+            width: 95%;
+           font-family: 'Open Sans Condensed',sans-serif;
+            line-height: 50px;
+            letter-spacing: 1.5px;
+              }
+.fancybox  img { margin-right: 30px;
+              width : 30%;
+              float: left;
+              height: auto;}
+.photos :hover img{ opacity: 0.3;}
+.photos { margin: 0 auto;
+              margin:0 auto;
+              width: 80%;
+            text-align: center;
+            margin-bottom:50px;}
+            
+ @media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+{
+           .photocontent h1 { width:70%;
+                      margin-top: 80px;
+                      margin:0 auto;}
+                      .photocontent p {width:70%;
+                      margin:0 auto;
+                      text-align: center;}
+           .fancybox img{ float:none;
+           margin :0 auto;
+           width:80%;}
+           }
+           
+      @media screen  and (max-width: 900px){.photocontent h1 { width:70%;
+                      margin-top: 80px;
+                      margin:0 auto;}
+                      .photocontent p {width:70%;
+                      margin:0 auto;
+                      text-align: center;}
+           .fancybox img{ float:none;
+           margin :0 auto;
+           width:80%;}
+           }
