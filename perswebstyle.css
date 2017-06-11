@@ -165,7 +165,7 @@ header li{ list-style:none;
   and (min-device-width: 375px) 
   and (max-device-width: 667px){
               
-              .content h1 ,.portcontent h1 { margin:0 auto;
+              .content h1 ,.portcontent h1, .body h1{ margin:0 auto;
                             margin-top: 500px;
                             width:80%;
                             text-align:justify;
@@ -192,7 +192,7 @@ header li{ list-style:none;
 
  @media screen and (max-width: 1000px) {
               
-              .content h1 ,.portcontent h1 { margin:0 auto;
+             .content h1 ,.portcontent h1, .body h1 { margin:0 auto;
                             margin-top: 500px;
                             width:80%;
                             text-align: left;
